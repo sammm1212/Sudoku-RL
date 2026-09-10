@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+outputs/models/
+
+# Generated logs and output files
+*.log
+logs/
+outputs/logs/
+outputs/figures/
+
+# macOS
+.DS_Store
